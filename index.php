@@ -61,7 +61,7 @@ while($product = mysqli_fetch_assoc($featured)):
   <img src="<?=$product['image'];?>" alt="<?= $product['name'];?>">
   <p class="price">Ksh <?=$product['price'];?></p>
   <a href="details.php">
-  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-1">More</button>
+  <button type="button" class="btn-btn-success" data-toggle="modal" data-target="#details-1">More</button>
 </a>
 </div>
 <?php endwhile; ?>
